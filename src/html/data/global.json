@@ -1,0 +1,38 @@
+{
+  "navigation": {
+    "index.html": {
+      "name": "Index"
+    },
+    "about.html": {
+      "name": "About"
+    },
+    "ui.html": {
+      "name": "UI Kit",
+      "sub": {
+        "modal.html": {
+          "name": "Modal"
+        },
+        "sweetalert.html": {
+          "name": "Sweet alert"
+        },
+        "form.html": {
+          "name": "Form element"
+        }
+      }
+    },
+    "ui2.html": {
+      "name": "UI Kit 2",
+      "sub": {
+        "modal2.html": {
+          "name": "Modal 2"
+        },
+        "sweetalert2.html": {
+          "name": "Sweet alert 2"
+        },
+        "form2.html": {
+          "name": "Form element 2"
+        }
+      }
+    }
+  }
+}

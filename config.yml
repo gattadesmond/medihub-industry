@@ -1,0 +1,49 @@
+# Your project's server will run on localhost:xxxx at this port
+PORT: 3000
+
+# Autoprefixer will make sure your CSS works with these browsers
+COMPATIBILITY:
+  - "last 2 versions"
+  - "ie >= 9"
+
+# UnCSS will use these settings
+UNCSS_OPTIONS:
+  html:
+    - "src/**/*.html"
+  ignore:
+    - !!js/regexp .foundation-mq
+    - !!js/regexp ^\.is-.*
+
+# Gulp will reference these paths when it copies files
+PATHS:
+  # Path to dist folder
+  dist: "dest"
+  # Paths to static assets that aren't images, CSS, or JavaScript
+  assets:
+    - "src/assets/**/*"
+  data:
+    - "src/html/data/global.json"
+  # Paths to Sass libraries, which can then be loaded with @import
+  sass:
+    - "node_modules/bootstrap/scss"
+  # Paths to JavaScript libraries, which are compined into one file
+  javascript:
+    # Libraries requried by Foundation
+    # - "src/javascripts/bootstrap/index.js"
+    - "node_modules/bootstrap/js/dist/util.js"
+    - "node_modules/bootstrap/js/dist/alert.js"
+    - "node_modules/bootstrap/js/dist/button.js"
+    - "node_modules/bootstrap/js/dist/carousel.js"
+    - "node_modules/bootstrap/js/dist/collapse.js"
+    - "node_modules/bootstrap/js/dist/dropdown.js"
+    - "node_modules/bootstrap/js/dist/modal.js"
+    - "node_modules/bootstrap/js/dist/scrollspy.js"
+    - "node_modules/bootstrap/js/dist/tab.js"
+    - "node_modules/bootstrap/js/dist/tooltip.js"
+    - "node_modules/bootstrap/js/dist/popover.js"
+    - "node_modules/bootstrap/js/dist/toast.js"
+    - "src/javascripts/app.js"
+   
+    # Paths to your own project code are here
+    # - "src/assets/js/!(app).js"
+    # - "src/assets/js/app.js"
