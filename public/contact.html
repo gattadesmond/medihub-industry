@@ -230,179 +230,89 @@
     </div>
 </header>
 <!-- header close -->
-<!-- subheader -->
-<section id="subheader" data-bgimage="url(images/background/subheader-6.jpg" class="style-2"
-    data-stellar-background-ratio=".1">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="title-wrap">
-                    <h1>Envato Industry</h1>
-                    <h4>A Selection of Signature Projects</h4>
+
+<!-- content begin -->
+<div id="content">
+    <section class="no-top" aria-label="map-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="map"></div>
                 </div>
-                <ul class="crumb">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="sep">/</li>
-                    <li>Projects</li>
-                </ul>
             </div>
         </div>
-    </div>
-</section>
-<!-- subheader close -->
+    </section>
 
-<div id="info-box" class="no-padding mt-90 mobile-hide absolute z-index500 text-light">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <div class="overlay10">
 
-                    <div class="row-fluid">
+            <div class="col-md-8">
+                <h3>Send Us Message</h3>
+                <form name="contactForm" id='contact_form' method="post" action='email.php'>
+                    <div class="row">
                         <div class="col-md-4">
-                            <div class="info-box padding20">
-                                <i class="icon_clock_alt id-color"></i>
-                                <div class="info-box_text">
-                                    <div class="info-box_title">Opening Times</div>
-                                    <div class="info-box_subtite">Monday - Friday: 09:00 - 18:00</div>
-                                </div>
+                            <div id='name_error' class='error'>Please enter your name.</div>
+                            <div>
+                                <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
+                            </div>
+
+                            <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
+                            <div>
+                                <input type='text' name='email' id='email' class="form-control"
+                                    placeholder="Your Email">
+                            </div>
+
+                            <div id='phone_error' class='error'>Please enter your phone number.</div>
+                            <div>
+                                <input type='text' name='phone' id='phone' class="form-control"
+                                    placeholder="Your Phone">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div id='message_error' class='error'>Please enter your message.</div>
+                            <div>
+                                <textarea name='message' id='message' class="form-control"
+                                    placeholder="Your Message"></textarea>
                             </div>
                         </div>
 
-                        <div class="col-md-4">
-                            <div class="info-box padding20">
-                                <i class="icon_house_alt id-color"></i>
-                                <div class="info-box_text">
-                                    <div class="info-box_title">Our Location</div>
-                                    <div class="info-box_subtite">100 Mainstreet Center, Sydney</div>
-                                </div>
-                            </div>
+                        <div class="col-md-12">
+                            <p id='submit'>
+                                <input type='submit' id='send_message' value='Submit Form' class="btn btn-line">
+                            </p>
+                            <div id='mail_success' class='success'>Your message has been sent successfully.</div>
+                            <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
                         </div>
-
-                        <div class="col-md-4">
-                            <div class="info-box padding20">
-                                <i class="icon_headphones id-color"></i>
-                                <div class="info-box_text">
-                                    <div class="info-box_title">Customer Support</div>
-                                    <div class="info-box_subtite">+208 333 9296</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="clearfix"></div>
                     </div>
+                </form>
+            </div>
+
+            <div id="sidebar" class="col-md-4">
+
+                <div class="widget widget_text">
+                    <h3>Contact Info</h3>
+                    <address>
+                        <span>100 Mainstreet Center, Sydney</span>
+                        <span><strong>Phone:</strong>(208) 333 9296</span>
+                        <span><strong>Fax:</strong>(208) 333 9298</span>
+                        <span><strong>Email:</strong><a href="mailto:contact@example.com">contact@example.com</a></span>
+                        <span><strong>Web:</strong><a href="#test">http://example.com</a></span>
+                        <span><strong>Open</strong>Sunday - Friday 08:00 - 18:00</span>
+                    </address>
                 </div>
+
+
+
+
+
+
+
+
 
             </div>
         </div>
     </div>
 </div>
-<!-- content begin -->
-
-
-
-
-    <!-- content begin -->
-    <div id="content">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-6">
-                    <div id="project-img-carousel" class="zoom-gallery">
-                        <figure class="pic-hover hover-scale mb30">
-                            <a href="images/portfolio/view/p1_a.jpg">
-                                <span class="bg-overlay"></span>
-                                <img src="images/portfolio/view/p1_a.jpg" class="img-responsive" alt="">
-                            </a>
-                        </figure>
-
-                        <figure class="pic-hover hover-scale">
-                            <a href="images/portfolio/view/p1_b.jpg">
-                                <span class="bg-overlay"></span>
-                                <img src="images/portfolio/view/p1_b.jpg" class="img-responsive" alt="">
-                            </a>
-                        </figure>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-
-                    <div class="padding60" data-bgcolor="#f7f7f7">
-                        <h3 class="mb20">Project Details
-                            <span class="tiny-border"></span>
-                        </h3>
-
-                        <div class="info-details">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="info-text">
-                                        <span class="title">Client:</span>
-                                        <span class="val">Envato Corps</span>
-                                    </div>
-
-                                    <div class="info-text">
-                                        <span class="title">Location:</span>
-                                        <span class="val">New York, USA</span>
-                                    </div>
-
-                                    <div class="info-text">
-                                        <span class="title">Value:</span>
-                                        <span class="val">$25,000</span>
-                                    </div>
-
-
-                                </div>
-
-                                <div class="col-md-6">
-
-
-                                    <div class="info-text">
-                                        <span class="title">Year Completed:</span>
-                                        <span class="val">2015</span>
-                                    </div>
-
-                                    <div class="info-text">
-                                        <span class="title">Category:</span>
-                                        <span class="val">Hospitaly</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="spacer-single"></div>
-
-                        <h3 class="mb20">Project Overview
-                            <span class="tiny-border"></span>
-                        </h3>
-
-                        <p>
-                            In the modern industrialized world, construction usually involves the translation of designs
-                            into reality. A formal design team may be assembled to plan the physical proceedings, and to
-                            integrate those proceedings with the other parts. The design usually consists of drawings
-                            and specifications, usually prepared by a design team including Architect, civil engineers,
-                            mechanical engineers, electrical engineers, structural engineers, fire protection engineers,
-                            planning consultants, architectural consultants, and archaeological consultants. The design
-                            team is most commonly employed by (i.e. in contract with) the property owner. Under this
-                            system, once the design is completed by the design team, a number of construction companies
-                            or construction management companies may then be asked to make a bid for the work, either
-                            based directly on the design, or on the basis of drawings and a bill of quantities provided
-                            by a quantity surveyor.
-
-                        </p>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-        </div>
-
-
-
-    </div>
-
-
 
 
 
