@@ -21,7 +21,7 @@ jQuery(document).ready(function () {
 	var v_count = '0';
 
     if (de_color_style == 2) { $('body').addClass('de_light'); }
-    if (de_font_style == 2) { $('head').append('<link rel="stylesheet" href="css/font-style-2.css" type="text/css" />'); }
+    // if (de_font_style == 2) { $('head').append('<link rel="stylesheet" href="css/font-style-2.css" type="text/css" />'); }
     if (de_header_style == 2) { $('header').addClass('transparent'); }
     if (de_menu_separator == 2) {
         $('#mainmenu').addClass('line-separator');

@@ -1,18 +1,216 @@
-{% set title = 'Gulp Des Index' %}
-{% set page = 'index.html' %}
+<!DOCTYPE html>
+<html lang="en">
 
-{% extends 'layouts/application.html' %}
+<head>
+    <meta charset="utf-8">
+    <title>Archi - Industry Website Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Archi is best selling interior design website template with responsive stunning design">
+    <meta name="keywords"
+        content="architecture,building,business,bootstrap,creative,exterior design,furniture design,gallery,garden design,house,interior design,landscape design,multipurpose,onepage,portfolio,studio">
+    <meta name="author" content="">
 
-{% import 'macros/helpers.html' as macro %}
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&display=swap&subset=latin-ext,vietnamese" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap&subset=latin-ext,vietnamese" rel="stylesheet">
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
 
 
-{% block content %}
+    <!-- CSS Files
+    ================================================== -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/jpreloader.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/plugin.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
+
+    <!-- custom background -->
+    <link rel="stylesheet" href="css/bg.css" type="text/css">
+
+    <!-- load fonts -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="fonts/et-line-font/style.css" type="text/css">
+
+    <!-- revolution slider -->
+    <link rel="stylesheet" href="rs-plugin/css/settings.css" type="text/css">
+    <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
+
+    <!-- custom css -->
+    <!-- <link rel="stylesheet" href="css/custom.css" type="text/css"> -->
+
+    <link rel="stylesheet" href="stylesheets/custom.css" type="text/css">
+
+
+    <!-- color scheme -->
+    <link rel="stylesheet" href="css/color.css" type="text/css" id="colors">
+
+
+</head>
+
+<body id="homepage">
+
+    <div id="wrapper">
+
+
+        <!-- header begin -->
+        <header>
+            <div class="info">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col">Working Hours Monday - Friday <span class="id-color"><strong>08:00-16:00</strong></span></div>
+                            <div class="col">Toll Free <span class="id-color"><strong>1800.899.900</strong></span></div>
+                            <!-- social icons -->
+                            <div class="col social">
+                                <a href="index.html#"><i class="fa fa-facebook"></i></a>
+                                <a href="index.html#"><i class="fa fa-twitter"></i></a>
+                                <a href="index.html#"><i class="fa fa-rss"></i></a>
+                                <a href="index.html#"><i class="fa fa-google-plus"></i></a>
+                                <a href="index.html#"><i class="fa fa-envelope-o"></i></a>
+                            </div>
+                            <!-- social icons close -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- logo begin -->
+                        <div id="logo">
+                            <a href="index.html">
+                                <img class="logo" src="images/logo.png" width="100" alt="">
+                            </a>
+                        </div>
+                        <!-- logo close -->
+
+                        <!-- small button begin -->
+                        <span id="menu-btn"></span>
+                        <!-- small button close -->
+
+                        <!-- mainmenu begin -->
+                        <nav>
+                            <ul id="mainmenu">
+                                <li><a href="index.html">Trang chủ</a></li>
+
+                                <li><a href="index.html">Giải pháp</a></li>
+                                <li><a href="index.html">Sản phẩm</a></li>
+                                <li><a href="index.html">Công trình tiêu biểu</a></li>
+                                <li><a href="index.html">Hỗ trợ</a></li>
+                                <li><a href="index.html">Liên hệ</a></li>
+<!-- 
+
+								<li><a href="http://www.themenesia.com/themeforest/archi-industry/about.html">About</a></li>
+								<li><a href="http://www.themenesia.com/themeforest/archi-industry/services.html">Services</a>
+									<ul>
+										<li><a href="http://www.themenesia.com/themeforest/archi-industry/services.html">All Services</a></li>
+										<li><a href="http://www.themenesia.com/themeforest/archi-industry/service-single.html">Single</a></li>
+									</ul>
+								</li>
+                                <li><a href="http://www.themenesia.com/themeforest/archi-industry/projects.html">Projects</a></li>
+                                <li><a href="http://www.themenesia.com/themeforest/archi-industry/news.html">News</a></li>
+                                <li><a href="http://www.themenesia.com/themeforest/archi-industry/contact.html">Contact</a></li> -->
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <!-- mainmenu close -->
+
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
 
 <!-- content begin -->
 <div id="content" class="no-bottom no-top">
 
-    {% include 'layouts/slider.html' %}
+<!-- revolution slider begin -->
+<section id="section-slider" class="fullwidthbanner-container" aria-label="section-slider">
+  <div id="revolution-slider">
+    <ul>
 
+
+
+      <li data-transition="slidehorizontal" data-slotamount="10" data-masterspeed="500" data-thumb="">
+        <!--  BACKGROUND IMAGE -->
+        <!-- <img src="images-slider/wide1.jpg" alt="" /> -->
+        <img src="images/des/bbg2.jpg" alt="" />
+        <div class="tp-caption big-white sft" data-x="center" data-y="160" data-speed="1800" data-start="400"
+          data-easing="easeInOutExpo" data-endspeed="450">
+          Most Trusted
+        </div>
+
+        <div class="tp-caption ultra-big-white customin customout start" data-x="center" data-y="center"
+          data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+          data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+          data-speed="1800" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+          Industry Leader
+        </div>
+
+        <div class="tp-caption sfb" data-x="center" data-y="335" data-speed="1400" data-start="800"
+          data-easing="easeInOutExpo">
+          <a href="http://www.themenesia.com/themeforest/archi-industry/about.html" class="btn-slider">About Company
+          </a>
+        </div>
+      </li>
+
+      <li data-transition="slidehorizontal" data-slotamount="10" data-masterspeed="500" data-thumb="">
+        <!--  BACKGROUND IMAGE -->
+        <!-- <img src="images-slider/wide2.jpg" alt="" /> -->
+        <img src="images/des/bbg4.jpg" alt="" />
+        <div class="tp-caption big-white sft" data-x="center" data-y="160" data-speed="1800" data-start="400"
+          data-easing="easeInOutExpo" data-endspeed="450">
+          Committed to Best
+        </div>
+
+        <div class="tp-caption ultra-big-white customin customout start" data-x="center" data-y="center"
+          data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+          data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+          data-speed="1800" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+          Quality &amp; Results
+        </div>
+
+        <div class="tp-caption sfb" data-x="center" data-y="335" data-speed="1400" data-start="800"
+          data-easing="easeInOutExpo">
+          <a href="http://www.themenesia.com/themeforest/archi-industry/services.html" class="btn-slider">Our Services
+          </a>
+        </div>
+      </li>
+
+      <li data-transition="slidehorizontal" data-slotamount="10" data-masterspeed="500" data-thumb="">
+        <!--  BACKGROUND IMAGE -->
+        <img src="images-slider/wide3.jpg" alt="" />
+        <div class="tp-caption big-white sft" data-x="center" data-y="160" data-speed="1800" data-start="400"
+          data-easing="easeInOutExpo" data-endspeed="450">
+          Turning Idea Into
+        </div>
+
+        <div class="tp-caption ultra-big-white customin customout start" data-x="center" data-y="center"
+          data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:2;scaleY:2;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+          data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.85;scaleY:0.85;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+          data-speed="1800" data-start="400" data-easing="easeInOutExpo" data-endspeed="400">
+          Great Products
+        </div>
+
+        <div class="tp-caption sfb" data-x="center" data-y="335" data-speed="1400" data-start="800"
+          data-easing="easeInOutExpo">
+          <a href="http://www.themenesia.com/themeforest/archi-industry/projects.html" class="btn-slider">Our Projects
+          </a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</section>
+<!-- revolution slider close -->
 
     <div id="info-box" class="no-padding mt-90 mobile-hide absolute z-index500 text-light">
         <div class="container">
@@ -381,4 +579,84 @@
 
 </div>
 
-{% endblock %}
+
+
+  <!-- footer begin -->
+  <footer>
+    <div class="container pb40">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/logo.png" width="100" class="logo-small" alt=""><br>
+            </div>
+
+            <div class="col-md-6">
+                &copy; Copyright 2019 - Archi Industry Template by <span class="id-color">Designesia</span>
+            </div>
+
+            <div class="col-md-3 text-right">
+                <div class="social-icons">
+                    <a href="index.html#"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a href="index.html#"><i class="fa fa-twitter fa-lg"></i></a>
+                    <a href="index.html#"><i class="fa fa-rss fa-lg"></i></a>
+                    <a href="index.html#"><i class="fa fa-google-plus fa-lg"></i></a>
+                    <a href="index.html#"><i class="fa fa-skype fa-lg"></i></a>
+                    <a href="index.html#"><i class="fa fa-dribbble fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <a href="index.html#" id="back-to-top"></a>
+</footer>
+<!-- footer close -->
+    </div>
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jpreLoader.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.scrollto.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/video.resize.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/enquire.min.js"></script>
+    <script src="js/designesia.js"></script>
+
+    <!-- SLIDER REVOLUTION SCRIPTS  -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <script src="js/typed.js"></script>
+    <script>
+        $(function () {
+            // jquery typed plugin
+            $(".typed").typed({
+                stringsElement: $('.typed-strings'),
+                typeSpeed: 100,
+                backDelay: 1500,
+                loop: true,
+                contentType: 'html', // or text
+                // defaults to false for infinite loop
+                loopCount: false,
+                callback: function () { null; },
+                resetCallback: function () { newTyped(); }
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
