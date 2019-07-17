@@ -139,7 +139,7 @@ address span strong,
 
 
 .de_tab .de_nav li span {
-border-top: 3px solid #0061af;
+/* border-top: 3px solid #0061af; */
 }
 
 .feature-box-big-icon i:after {

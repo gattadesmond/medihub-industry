@@ -783,7 +783,7 @@ section {
 }
 
 .de_light section {
-  background: #fff;
+  // background: #fff;
 }
 
 .section-fixed {
@@ -2931,14 +2931,21 @@ a {
     }
   }
   .de_nav li {
+    background: transparent;
+    margin-right: 15px;
     span {
       border: none;
-      background: #222;
+      // background: #222;
+      padding: 3px 16px 3px 16px;
+      color: white;
+      background: transparent;
+      border-radius: 5px;
+      border: 2px solid rgba(255,255,255,0.7);
     }
-    &:first-child span {
-      border-left: 1px solid #ddd;
-      border-left: 1px solid #404040;
-    }
+    // &:first-child span {
+    //   border-left: 1px solid #ddd;
+    //   border-left: 1px solid #404040;
+    // }
   }
   .de_tab_content {
     border: 1px solid #ddd;
@@ -2962,15 +2969,15 @@ a {
   }
   .de_nav li.active span {
     background: #fff;
-    border-bottom: 1px solid #fff;
+    // border-bottom: 1px solid #fff;
     color: #222;
     margin-bottom: -3px;
     .v-border {
       display: none !important;
     }
-    background: #27282b;
-    border-bottom: 1px solid #27282b;
-    color: #ccc;
+    // background: #27282b;
+    // border-bottom: 1px solid #27282b;
+    // color: #ccc;
   }
   &.tab_steps {
     .de_nav li.active span {
@@ -3668,10 +3675,10 @@ object {
   position: absolute;
   width: 100%;
   min-height: 100%;
-  background: url(http://www.themenesia.com/themeforest/archi-industry/images/dot-70.png);
-  &.dotted {
-    background: url(http://www.themenesia.com/themeforest/archi-industry/images/dotted.png);
-  }
+  // background: url(http://www.themenesia.com/themeforest/archi-industry/images/dot-70.png);
+  // &.dotted {
+  //   background: url(http://www.themenesia.com/themeforest/archi-industry/images/dotted.png);
+  // }
 }
 
 .video-fixed {
@@ -6715,4 +6722,59 @@ a.btn-custom {
     font-size: 11px;
     color: rgba(255,255,255,0.7)
   }
+}
+
+
+.section-download{
+  background-size: cover !important;
+  background-position: left center;
+  min-height: 70vh;
+}
+
+
+.pddownload_list {
+  border-top: #6a93b4 1px solid;
+}
+
+.pddownload_list li {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: #6a93b4 1px solid;
+}
+
+.pddownload_list li:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.pddownload_list li * {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pddownload_list li i {
+  width: 50px;
+  height: 60px;
+  background: url(../images/background/pdf.svg) center no-repeat;
+  background-size: auto;
+}
+
+.pddownload_list li h4 {
+  color: #FFF;
+  font-size: 14px;
+  width: 70%;
+}
+
+.pddownload_list li h5 {
+  color: #FFF;
+  font-size: 14px;
+  width: 10%;
+}
+
+.pddownload_list li a {
+  float: right;
+}
+
+.pddownload_list li a:hover {
+  opacity: 0.5;
 }
