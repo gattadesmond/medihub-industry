@@ -254,10 +254,10 @@ width: 51px;
 height: 51px;
 border: none;
 text-indent: -999px;
-background: url(http://www.themenesia.com/themeforest/archi-industry/images/ui.totop.png) no-repeat left top;
+/* background: url(http://www.themenesia.com/themeforest/archi-industry/images/ui.totop.png) no-repeat left top; */
 }
 #toTopHover {
-background: url(http://www.themenesia.com/themeforest/archi-industry/images/ui.totop.png) no-repeat left -51px;
+/* background: url(http://www.themenesia.com/themeforest/archi-industry/images/ui.totop.png) no-repeat left -51px; */
 width: 51px;
 height: 51px;
 display: block;
