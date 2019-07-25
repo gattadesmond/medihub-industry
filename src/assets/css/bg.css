@@ -64,21 +64,32 @@ background-size: cover;
 #section-why-choose-us{background:url(http://www.themenesia.com/themeforest/archi-industry/images/background/bg-8.jpg) top fixed;}
 #section-why-choose-us-3{background:url(http://www.themenesia.com/themeforest/archi-industry/images/background/bg-16.jpg) top fixed;} */
 #section-portfolio{background:#222; width:101%; overflow:hidden;}
+
 .de_light #section-portfolio{background:#fff;}
 /* #section-skill-bar{ background:url(http://www.themenesia.com/themeforest/archi-industry/images/background/bg-8.jpg) top fixed;}
 #section-testimonial{ background:url(../images/background/bg-3.jpg) top fixed;}
 #section-testimonial-2{ background:url(http://www.themenesia.com/themeforest/archi-industry/images/background/bg-17.jpg) top fixed;}
 #section-hero-1{ background:url(../images/background/bg-2.jpg) top fixed;}
 #section-steps{ background:url(http://www.ginverter.com/weboms/Template/pc_web/statics/images/sbg.jpg) top fixed;} */
+
 #section-steps-2{ background:#f5f5f5;}
 /* #section-steps-3{ background:url(http://www.themenesia.com/themeforest/archi-industry/images/background/bg-12.jpg) top fixed;}
 #section-steps-4{ background:url(http://www.themenesia.com/themeforest/archi-industry/images/background/bg-29.jpg) top fixed;} */
 #section-team{background:#111;}
 .de_light #section-team{background:#f5f5f5;}
 #hide-content{position:absolute; width:100%; min-height:100%; z-index:100;display:none; background:rgba(0,0,0,.8);}
+
+#section-fun-facts-2{}
+
+
+
+
 /* #section-fun-facts .image-container{background:url(http://www.themenesia.com/themeforest/archi-industry/images/background/bg-side-4.jpg);}
-#section-fun-facts-2{background:url(../images/background/bg-13.jpg) fixed center;}
+
+
 #section-fun-facts-3{background:url(http://www.themenesia.com/themeforest/archi-industry/images/background/bg-18.jpg) top;}
+
+
 #section-custom-1{background:url(http://www.themenesia.com/themeforest/archi-industry/images/background/bg-17.jpg) top fixed;}
 #section-custom-2{background:url(http://www.themenesia.com/themeforest/archi-industry/images/background/bg-16.jpg) top fixed;}
 #section-cta-1{background:url(http://www.themenesia.com/themeforest/archi-industry/images/background/bg-22.jpg) top fixed;}
