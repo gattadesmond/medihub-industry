@@ -41,7 +41,7 @@ html {
 body {
   display: none;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   color: #ddd;
   line-height: 1.8em;
@@ -50,6 +50,8 @@ body {
   &.de_light {
     color: #606060;
   }
+
+  padding-top: 80px;
 }
 
 #wrapper {
@@ -106,7 +108,7 @@ header {
       }
     }
     strong {
-      font-size: 12px;
+      font-size: 13px;
     }
   }
   &.header-light .info {
@@ -358,6 +360,7 @@ header {
 }
 
 #subheader.style-2 {
+  min-height: 370px;
   .title-wrap {
     // float: left;
     margin-top: 60px;
@@ -1101,7 +1104,7 @@ header {
   }
   li {
     min-height: 70px;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.6em;
     li {
       margin-left: 55px;
@@ -1132,10 +1135,10 @@ header {
     padding-left: 20px;
     margin-left: 20px;
     border-left: solid 1px rgba(255, 255, 255, 0.1);
-    font-size: 12px;
+    font-size: 13px;
   }
   .c_date {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -1250,7 +1253,7 @@ header {
   display: none;
   color: #d9534f;
   border: solid 1px #d9534f;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .success {
@@ -1500,7 +1503,7 @@ address span {
 .crumb {
   color: #777;
   float: right;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .de-navbar-left.de_light #subheader .crumb {
@@ -1530,7 +1533,7 @@ a.btn-line {
   border: solid 1px #222;
   color: #fff;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
   border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -1973,7 +1976,7 @@ h2 {
     // //letter-spacing: 32px;
   }
   &.style-2 {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
     // //letter-spacing: 10px;
@@ -3461,7 +3464,7 @@ a {
 .de_testi_by {
   margin-top: -10px;
   font-style: normal;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .de_testi_pic {
@@ -4063,7 +4066,7 @@ i {
     float: none;
   }
   &.small {
-    font-size: 12px;
+    font-size: 13px;
     padding: 4px;
     text-align: center;
     display: inline-block;
@@ -4281,7 +4284,7 @@ a,
 }
 
 .project-name {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
   display: block;
 }
@@ -4544,7 +4547,7 @@ a {
   margin-right: 2px;
   margin-bottom: 13px;
   a {
-    font-size: 12px;
+    font-size: 13px;
     text-decoration: none;
     margin-bottom: 5px;
     border-radius: 1px;
@@ -5292,7 +5295,7 @@ section.no-padding {
     text-transform: uppercase;
     line-height: 16px;
     color: #fff;
-    margin-top: 8px;
+    margin-top: 3px;
   }
 }
 
@@ -6415,7 +6418,7 @@ custom for 320px & 480px
     position: relative;
   }
   .countdown-section {
-    font-size: 12px;
+    font-size: 13px;
   }
   .countdown-amount {
     font-size: 36px;
@@ -6564,7 +6567,7 @@ a.btn-custom {
 
 #mainmenu > li {
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   //letter-spacing: 2px;
 }
 
@@ -6790,3 +6793,32 @@ a.btn-custom {
   
 
   }
+
+
+
+
+
+
+
+.app-slide,.app-slide-auto {
+  position: absolute;
+  top: 52.5%;
+  left: 50%;
+  /* -webkit-transform: translate(-50%, -50%); */
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 235px;
+}
+
+.slide-side .phone {
+  position: relative;
+  z-index: 5
+}
+
+
+
+
+.cal-box{
+  padding: 15px;
+  background: #eee;
+}

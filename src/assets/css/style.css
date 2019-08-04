@@ -1066,7 +1066,7 @@ footer {
 	
 	#blog-comment li {
 	min-height: 70px;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.6em;
 	}
 	
@@ -1103,11 +1103,11 @@ footer {
 	padding-left: 20px;
 	margin-left: 20px;
 	border-left: solid 1px rgba(255,255,255,.1);
-	font-size: 12px;
+	font-size: 14px;
 	}
 	
 	.comment-info .c_date {
-	font-size: 12px;
+	font-size: 14px;
 	}
 	
 	.blog-list h3, .blog-read h3 {
@@ -1213,7 +1213,7 @@ border:solid 1px #ddd;
 	display: none;
 	color: #d9534f;
 	border:solid 1px #d9534f;
-	font-size: 12px;
+	font-size: 13px;
 	}
 	.success {
 	padding:20px;
@@ -1421,7 +1421,7 @@ border:solid 1px #ddd;
 	.crumb {
 	color:#777;
 	float: right;
-	font-size: 12px;
+	font-size: 13px;
 	}
 	.de-navbar-left.de_light #subheader .crumb{
 	color:#333;
@@ -3742,7 +3742,7 @@ float:none;
 }
 
 i.small {
-font-size: 12px;
+font-size: 13px;
 padding: 4px;
 text-align: center;
 display:inline-block;
@@ -5905,7 +5905,7 @@ display:table;
 	}
 	
 	.countdown-section {
-	font-size: 12px;
+	font-size: 13px;
 	}
 	.countdown-amount {
 		font-size: 36px;

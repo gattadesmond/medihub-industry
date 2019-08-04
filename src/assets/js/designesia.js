@@ -1211,5 +1211,16 @@ jQuery(document).ready(function () {
         });
     });
 
-});
 
+    
+    jQuery(".app-slide-auto").owlCarousel({
+        items: 1,
+        singleItem : true,
+        navigation: false,
+        pagination: true,
+        autoPlay: 3000
+    });
+
+
+
+});
