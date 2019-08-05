@@ -180,110 +180,198 @@
             </div>
         </div>
 
+        <div class="rever-box">
+            <div class="row no-gutter" style="background-size: cover;">
+                <div class="col-md-6 mb-0 " style="background-size: cover;">
+                    <div class="rever-box-left">
+                        <div class="rever-label">
+                            Số tiền điện trả hằng tháng:
+                        </div>
 
-        <div class="row" style="background-size: cover;">
-            <div class="col-md-6" style="background-size: cover;">
-                <p>Số tiền điện trả hằng tháng: <strong id="electricityBillText">4500000</strong> VNĐ</p>
-                <input id="electricityBill" type="range" class="input-range" value="0" max="20000000" min="0"
-                    step="50000">
 
-                <p class="calculate__label">
-                    Số Điện Năng tiêu thụ: <span id="electricityConsumption">1486.99</span> Kw.h
-                </p>
-                <p>Diện tích mái nhà: <strong id="houseAreaText">280</strong> m2</p>
-                <input id="houseArea" type="range" class="input-range" value="0" max="1000" min="0" step="5">
-                <p class="calculate__label">
-                    Công suất tối đa có thể đạt được: <span id="maxCapacityCanMake">46.67</span> kWp
-                </p>
-                <p>
-                    Cường độ bức xạ trung bình tại:
-                    <select id="locations-selecter" style="margin-bottom: 1em">
-                        <option value="">Xin hãy chọn địa điểm</option>
-                        <option value="An Giang" data-intensity="4.36">An Giang</option>
-                        <option value="Bà Rịa - Vũng Tàu" data-intensity="4.55">Bà Rịa - Vũng Tàu</option>
-                        <option value="Bạc Liêu" data-intensity="4.41">Bạc Liêu</option>
-                        <option value="Bắc Giang" data-intensity="3.22">Bắc Giang</option>
-                        <option value="Bắc Kạn" data-intensity="3.28">Bắc Kạn</option>
-                        <option value="Bắc Ninh" data-intensity="3.35">Bắc Ninh</option>
-                        <option value="Bến Tre" data-intensity="4.50">Bến Tre</option>
-                        <option value="Bình Dương" data-intensity="4.35">Bình Dương</option>
-                        <option value="Bình Định" data-intensity="3.96">Bình Định</option>
-                        <option value="Bình Phước" data-intensity="4.45">Bình Phước</option>
-                        <option value="Bình Thuận" data-intensity="4.32">Bình Thuận</option>
-                        <option value="Cà Mau" data-intensity="4.33">Cà Mau</option>
-                        <option value="Cao Bằng" data-intensity="3.35">Cao Bằng</option>
-                        <option value="Cần Thơ" data-intensity="4.28">Cần Thơ</option>
-                        <option value="Đà Nẵng" data-intensity="3.96">Đà Nẵng</option>
-                        <option value="Đắk Lắk" data-intensity="4.28">Đắk Lắk</option>
-                        <option value="Đắk Nông" data-intensity="4.27">Đắk Nông</option>
-                        <option value="Điện Biên" data-intensity="3.74">Điện Biên</option>
-                        <option value="Đồng Nai" data-intensity="4.26">Đồng Nai</option>
-                        <option value="Đồng Tháp" data-intensity="4.48">Đồng Tháp</option>
-                        <option value="Gia Lai" data-intensity="4.52">Gia Lai</option>
-                        <option value="Hà Giang" data-intensity="3.15">Hà Giang</option>
-                        <option value="Hà Nam" data-intensity="3.38">Hà Nam</option>
-                        <option value="Hà Nội" data-intensity="3.41">Hà Nội</option>
-                        <option value="Hà Tĩnh" data-intensity="3.17">Hà Tĩnh</option>
-                        <option value="Hải Dương" data-intensity="3.09">Hải Dương</option>
-                        <option value="Hải Phòng" data-intensity="3.41">Hải Phòng</option>
-                        <option value="Hậu Giang" data-intensity="4.25">Hậu Giang</option>
-                        <option value="Hoà Bình" data-intensity="3.23">Hoà Bình</option>
-                        <option value="Hồ Chí Minh" data-intensity="4.29">Hồ Chí Minh</option>
-                        <option value="Hưng Yên" data-intensity="3.48">Hưng Yên</option>
-                        <option value="Kiên Giang" data-intensity="4.33">Kiên Giang</option>
-                        <option value="Kon Tum" data-intensity="4.42">Kon Tum</option>
-                        <option value="Khánh Hòa" data-intensity="3.84">Khánh Hòa</option>
-                        <option value="Lai Châu" data-intensity="3.55">Lai Châu</option>
-                        <option value="Lạng Sơn" data-intensity="3.44">Lạng Sơn</option>
-                        <option value="Lào Cai" data-intensity="3.18">Lào Cai</option>
-                        <option value="Lâm Đồng" data-intensity="4.37">Lâm Đồng</option>
-                        <option value="Long An" data-intensity="4.69">Long An</option>
-                        <option value="Nam Định" data-intensity="3.35">Nam Định</option>
-                        <option value="Ninh Bình" data-intensity="3.63">Ninh Bình</option>
-                        <option value="Ninh Thuận" data-intensity="4.58">Ninh Thuận</option>
-                        <option value="Nghệ An" data-intensity="3.19">Nghệ An</option>
-                        <option value="Phú Thọ" data-intensity="3.42">Phú Thọ</option>
-                        <option value="Phú Yên" data-intensity="3.83">Phú Yên</option>
-                        <option value="Quảng Bình" data-intensity="3.16">Quảng Bình</option>
-                        <option value="Quảng Nam" data-intensity="3.68">Quảng Nam</option>
-                        <option value="Quảng Ninh" data-intensity="3.07">Quảng Ninh</option>
-                        <option value="Quảng Ngãi" data-intensity="3.71">Quảng Ngãi</option>
-                        <option value="Quảng Trị" data-intensity="3.48">Quảng Trị</option>
-                        <option value="Sóc Trăng" data-intensity="4.45">Sóc Trăng</option>
-                        <option value="Sơn La" data-intensity="3.49">Sơn La</option>
-                        <option value="Tây Ninh" data-intensity="4.74">Tây Ninh</option>
-                        <option value="Tiền Giang" data-intensity="4.44">Tiền Giang</option>
-                        <option value="Tuyên Quang" data-intensity="3.18">Tuyên Quang</option>
-                        <option value="Thái Bình" data-intensity="3.29">Thái Bình</option>
-                        <option value="Thái Nguyên" data-intensity="3.46">Thái Nguyên</option>
-                        <option value="Thanh Hóa" data-intensity="3.13">Thanh Hóa</option>
-                        <option value="Thừa Thiên Huế" data-intensity="3.30">Thừa Thiên Huế</option>
-                        <option value="Trà Vinh" data-intensity="4.51">Trà Vinh</option>
-                        <option value="Vĩnh Long" data-intensity="4.45">Vĩnh Long</option>
-                        <option value="Vĩnh Phúc" data-intensity="3.49">Vĩnh Phúc</option>
-                        <option value="Yên Bái" data-intensity="3.46">Yên Bái</option>
-                    </select> là
-                    <strong id="electricity-intensity">3.74</strong> kW/m2/ngày
-                </p>
-            </div>
-            <div class="col-md-6" style="background-size: cover;">
-                <div class="cal-box">
-                    <div class="col-md-12 principles__item" style="background-size: cover;">
-                        <img src="./HomeSolution - Giải pháp nhà thông minh_files/solar.png" class="img-responsive">
+                        <div class="rever-slide">
+                            <div class="rever-slide-item">
+                                <input id="electricityBill" type="range" class="input-range" value="0" max="20000000"
+                                    min="0" step="50000">
+                            </div>
+                            <div class="rever-slide-value">
+                                <strong id="electricityBillText">4500000 </strong> VNĐ
+                            </div>
+                        </div>
 
+
+                        <div class="rever-result">
+                            Số Điện Năng tiêu thụ: <span id="electricityConsumption">1486.99</span> Kw.h
+                        </div>
+
+
+                        <div class="rever-label">
+                            Diện tích mái nhà:
+                        </div>
+
+                        <div class="rever-slide">
+                            <div class="rever-slide-item">
+                                <input id="houseArea" type="range" class="input-range" value="0" max="1000" min="0"
+                                    step="5">
+                            </div>
+                            <div class="rever-slide-value">
+                                <strong id="houseAreaText">280</strong> m2
+                            </div>
+                        </div>
+
+
+                        <div class="rever-result">
+                            Công suất tối đa có thể đạt được: <span id="maxCapacityCanMake">46.67</span> kWp
+                        </div>
+
+
+
+
+
+                        <div class="rever-result">
+                            <div>Cường độ bức xạ trung bình tại:</div>
+                            <select id="locations-selecter" class="form-control"
+                                style="margin: 1em;max-width: 200px; display: inline-block">
+                                <option value="">Xin hãy chọn địa điểm</option>
+                                <option value="An Giang" data-intensity="4.36">An Giang</option>
+                                <option value="Bà Rịa - Vũng Tàu" data-intensity="4.55">Bà Rịa - Vũng Tàu</option>
+                                <option value="Bạc Liêu" data-intensity="4.41">Bạc Liêu</option>
+                                <option value="Bắc Giang" data-intensity="3.22">Bắc Giang</option>
+                                <option value="Bắc Kạn" data-intensity="3.28">Bắc Kạn</option>
+                                <option value="Bắc Ninh" data-intensity="3.35">Bắc Ninh</option>
+                                <option value="Bến Tre" data-intensity="4.50">Bến Tre</option>
+                                <option value="Bình Dương" data-intensity="4.35">Bình Dương</option>
+                                <option value="Bình Định" data-intensity="3.96">Bình Định</option>
+                                <option value="Bình Phước" data-intensity="4.45">Bình Phước</option>
+                                <option value="Bình Thuận" data-intensity="4.32">Bình Thuận</option>
+                                <option value="Cà Mau" data-intensity="4.33">Cà Mau</option>
+                                <option value="Cao Bằng" data-intensity="3.35">Cao Bằng</option>
+                                <option value="Cần Thơ" data-intensity="4.28">Cần Thơ</option>
+                                <option value="Đà Nẵng" data-intensity="3.96">Đà Nẵng</option>
+                                <option value="Đắk Lắk" data-intensity="4.28">Đắk Lắk</option>
+                                <option value="Đắk Nông" data-intensity="4.27">Đắk Nông</option>
+                                <option value="Điện Biên" data-intensity="3.74">Điện Biên</option>
+                                <option value="Đồng Nai" data-intensity="4.26">Đồng Nai</option>
+                                <option value="Đồng Tháp" data-intensity="4.48">Đồng Tháp</option>
+                                <option value="Gia Lai" data-intensity="4.52">Gia Lai</option>
+                                <option value="Hà Giang" data-intensity="3.15">Hà Giang</option>
+                                <option value="Hà Nam" data-intensity="3.38">Hà Nam</option>
+                                <option value="Hà Nội" data-intensity="3.41">Hà Nội</option>
+                                <option value="Hà Tĩnh" data-intensity="3.17">Hà Tĩnh</option>
+                                <option value="Hải Dương" data-intensity="3.09">Hải Dương</option>
+                                <option value="Hải Phòng" data-intensity="3.41">Hải Phòng</option>
+                                <option value="Hậu Giang" data-intensity="4.25">Hậu Giang</option>
+                                <option value="Hoà Bình" data-intensity="3.23">Hoà Bình</option>
+                                <option value="Hồ Chí Minh" data-intensity="4.29">Hồ Chí Minh</option>
+                                <option value="Hưng Yên" data-intensity="3.48">Hưng Yên</option>
+                                <option value="Kiên Giang" data-intensity="4.33">Kiên Giang</option>
+                                <option value="Kon Tum" data-intensity="4.42">Kon Tum</option>
+                                <option value="Khánh Hòa" data-intensity="3.84">Khánh Hòa</option>
+                                <option value="Lai Châu" data-intensity="3.55">Lai Châu</option>
+                                <option value="Lạng Sơn" data-intensity="3.44">Lạng Sơn</option>
+                                <option value="Lào Cai" data-intensity="3.18">Lào Cai</option>
+                                <option value="Lâm Đồng" data-intensity="4.37">Lâm Đồng</option>
+                                <option value="Long An" data-intensity="4.69">Long An</option>
+                                <option value="Nam Định" data-intensity="3.35">Nam Định</option>
+                                <option value="Ninh Bình" data-intensity="3.63">Ninh Bình</option>
+                                <option value="Ninh Thuận" data-intensity="4.58">Ninh Thuận</option>
+                                <option value="Nghệ An" data-intensity="3.19">Nghệ An</option>
+                                <option value="Phú Thọ" data-intensity="3.42">Phú Thọ</option>
+                                <option value="Phú Yên" data-intensity="3.83">Phú Yên</option>
+                                <option value="Quảng Bình" data-intensity="3.16">Quảng Bình</option>
+                                <option value="Quảng Nam" data-intensity="3.68">Quảng Nam</option>
+                                <option value="Quảng Ninh" data-intensity="3.07">Quảng Ninh</option>
+                                <option value="Quảng Ngãi" data-intensity="3.71">Quảng Ngãi</option>
+                                <option value="Quảng Trị" data-intensity="3.48">Quảng Trị</option>
+                                <option value="Sóc Trăng" data-intensity="4.45">Sóc Trăng</option>
+                                <option value="Sơn La" data-intensity="3.49">Sơn La</option>
+                                <option value="Tây Ninh" data-intensity="4.74">Tây Ninh</option>
+                                <option value="Tiền Giang" data-intensity="4.44">Tiền Giang</option>
+                                <option value="Tuyên Quang" data-intensity="3.18">Tuyên Quang</option>
+                                <option value="Thái Bình" data-intensity="3.29">Thái Bình</option>
+                                <option value="Thái Nguyên" data-intensity="3.46">Thái Nguyên</option>
+                                <option value="Thanh Hóa" data-intensity="3.13">Thanh Hóa</option>
+                                <option value="Thừa Thiên Huế" data-intensity="3.30">Thừa Thiên Huế</option>
+                                <option value="Trà Vinh" data-intensity="4.51">Trà Vinh</option>
+                                <option value="Vĩnh Long" data-intensity="4.45">Vĩnh Long</option>
+                                <option value="Vĩnh Phúc" data-intensity="3.49">Vĩnh Phúc</option>
+                                <option value="Yên Bái" data-intensity="3.46">Yên Bái</option>
+                            </select> là
+
+                            <span id="electricity-intensity">3.74</span> kW/m2/ngày
+                        </div>
+
+
+
+
+
+                        <div class="cal-box">
+                            <div class="col-md-12 principles__item " style="background-size: cover;">
+                                <img src="images/des/solar.png" class="img-responsive">
+                            </div>
+                            <div class="capacity-canmake" style="background-size: cover;">
+
+                                <br>
+                                <span class="capacity-canmake__tilte">Công suất nên đầu tư:</span>
+                                <p class="capacity-canmake__value">
+                                    <span id="capacityCanMake" class="capacity-canmake__unit">13.25</span>
+                                    <span class="unit">&nbsp;kWp</span>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="capacity-canmake" style="background-size: cover;">
+                </div>
+                <div class="col-md-6 mb-0" style="background-size: cover;">
+                    <div class="rever-box-right">
+                        <h3 class="pp-1">Kết quả</h3>
 
+
+                        <div class="pp-5">Cách xác định các chi phí đầu tư:</div>
+
+                        <div class="row no-gutter">
+                            <div class="col-md-6">
+                                <img src="images/des/hinhbieudo.PNG" class="img-responsive " alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="pp-2">
+                                    <div>Chi phí Tấm pin (loại mono): </div>
+                                    <div class="h text-primary">139,125,000 </div>
+                                </div>
+                                <div class="pp-2">
+                                    <div>Chi phí Biến tần: </div>
+                                    <div class="h text-danger">00</div>
+                                </div>
+
+                                <div class="pp-2">
+                                    <div>Chi phí Phụ kiện và lắp đặt: </div>
+                                    <div class="h text-success"> 29,500,000</div>
+                                </div>
+                            </div>
+                        </div>
                         <br>
-                        <span class="capacity-canmake__tilte">Công suất nên đầu tư:</span>
-                        <p class="capacity-canmake__value">
-                            <span id="capacityCanMake" class="capacity-canmake__unit">13.25</span>
-                            <span class="unit">&nbsp;kWp</span>
-                        </p>
+
+
+
+                        <div class="pp-3">
+                            Tổng chi phí :Chi phí Tấm pin +Chi phí Biến tần+ Chi phí Phụ kiện và lắp đặt = <strong class="red" id="cptong">Có thể cần nhiều hơn 1 bộ biến tần (1 pha), hãy gọi hotline để chúng
+                                tôi tư vấn giúp bạn</strong>
+                        </div>
+
+                        <div class="pp-5">Cách xác định thời gian thu hồi vốn và thời gian dùng điện miễn phí:</div>
+
+                        <div>
+                            <p> Thời gian thu hồi vốn (năm) <strong class="red" id="tgthv">Liên hệ</strong> </p>
+                        </div>
+
+                        <div>
+                            <p> Thời gian dùng điện miễn phí (năm) <strong id="tgddmp">Liên hệ</strong> </p>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
+
 
         <div class="row">
 
@@ -372,9 +460,15 @@
 {{ super()}}
 
 
-<script src="./HomeSolution - Giải pháp nhà thông minh_files/pubsub.min.js.download"></script>
-<script src="./HomeSolution - Giải pháp nhà thông minh_files/chart.js@2.8.0"></script>
+<script src="giaiphap/pubsub.min.js.download"></script>
+<script src="giaiphap/chart.js@2.8.0"></script>
 <script>
+    $('input[type="range"]').rangeslider({
+        polyfill: false,
+
+    });
+
+
 
     function calculateElectricityConsumption(bill) {
         if (typeof bill !== "number") {
@@ -800,6 +894,7 @@
         let capacityCanMake = 0;
 
         document.getElementById('electricityBill').addEventListener('change', (e) => {
+            console.log("dw");
             PubSub.publish(ELECTRICITY_CHANGE, e.target.value);
         });
 
@@ -949,5 +1044,51 @@
 
         addOptionsLocation();
     })();
+</script>
 
-    {% endblock %}
+<script>
+
+    $(function () {
+        var $document = $(document);
+        var selector = '[data-rangeslider22]';
+        var $inputRange = $(selector); /** * Example functionality to demonstrate a value feedback * and change the output's value. */
+        function valueOutput(element) {
+            var value = element.value;
+            var output = element.parentNode.getElementsByTagName('output')[0];
+            output.innerHTML = value;
+        } /** * Initial value output */
+        for (var i = $inputRange.length - 1; i >= 0; i--) {
+            valueOutput($inputRange[i]);
+        }; /** * Update value output */
+        $document.on('input', selector, function (e) {
+            valueOutput(e.target);
+        }); /** * Initialize the elements */
+        $inputRange.rangeslider({
+            polyfill: false
+        }); /** * Example functionality to demonstrate programmatic value changes */
+        $document.on('click', '#js-example-change-value button', function (e) {
+            var $inputRange = $('[data-rangeslider]', e.target.parentNode);
+            var value = $('input[type="number"]', e.target.parentNode)[0].value;
+            $inputRange.val(value).change();
+        }); /** * Example functionality to demonstrate programmatic attribute changes */
+        $document.on('click', '#js-example-change-attributes button', function (e) {
+            var $inputRange = $('[data-rangeslider]', e.target.parentNode);
+            var attributes = {
+                min: $('input[name="min"]', e.target.parentNode)[0].value,
+                max: $('input[name="max"]', e.target.parentNode)[0].value,
+                step: $('input[name="step"]', e.target.parentNode)[0].value
+            };
+            $inputRange.attr(attributes).rangeslider('update', true);
+        }); /** * Example functionality to demonstrate destroy functionality */
+
+        $document.on('click', '#js-example-destroy button[data-behaviour="destroy"]', function (e) {
+            $('input[type="range"]', e.target.parentNode).rangeslider('destroy');
+        }).on('click', '#js-example-destroy button[data-behaviour="initialize"]', function (e) {
+            $('input[type="range"]', e.target.parentNode).rangeslider({
+                polyfill: false
+            });
+        });
+    });
+
+</script>
+{% endblock %}
