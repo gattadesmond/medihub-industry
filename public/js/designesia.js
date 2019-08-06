@@ -1058,10 +1058,10 @@ jQuery(document).ready(function () {
 			
         }); // document scroll end //
 		
-		$.stellar({
-                 horizontalScrolling: false,
-                 verticalOffset: 0
-        });
+		// $.stellar({
+        //          horizontalScrolling: false,
+        //          verticalOffset: 0
+        // });
     
 	}); // document load end //
 	
@@ -1221,6 +1221,21 @@ jQuery(document).ready(function () {
         autoPlay: 3000
     });
 
-
+    $("#mobile-slider").owlCarousel({
+ 
+        pagination: true,
+        // Show next and prev buttons
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true
+   
+        // "singleItem:true" is a shortcut for:
+        // items : 1, 
+        // itemsDesktop : false,
+        // itemsDesktopSmall : false,
+        // itemsTablet: false,
+        // itemsMobile : false
+   
+    });
 
 });
